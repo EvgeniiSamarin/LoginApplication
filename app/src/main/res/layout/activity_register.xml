@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/edittext_fio"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:hint="@string/fio"/>
+    <EditText
+        android:id="@+id/edittext_telephone"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/telephone" />
+
+
+    <EditText
+        android:id="@+id/edittext_login"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+
+        android:hint="@string/login" />
+
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/password" />
+    <EditText
+        android:id="@+id/edittext_cnf_password"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/confirm_password" />
+
+    <Button
+        android:id="@+id/button_register"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/register" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/already_registered"/>
+
+        <TextView
+            android:id="@+id/textview_login"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:text="@string/log" />
+    </LinearLayout>
+
+</LinearLayout>
